@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <Main>
         <header>
-          TITLE + NAVBAR
+          TITLE + NAVBAR + FUNKOLOGO
         </header>
         <body>
           PRODUCTS DESCRIPTIONS // OFFERS
