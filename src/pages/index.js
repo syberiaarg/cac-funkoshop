@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { Main } from 'next/document'
+import React from 'react'
 
 
 export default function Home() {
@@ -11,17 +12,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Main>
-        <header>
-          TITLE + NAVBAR + FUNKOLOGO
-        </header>
-        <body>
-          PRODUCTS DESCRIPTIONS // OFFERS
-        </body>
-        <footer>
-          CONTACT INFORMATION // REST OF NAVBAR // MINIMAL LOGO
-        </footer>
-      </Main>
+      <header>
+        <div>TITLE + NAVBAR + FUNKOLOGO</div>
+      </header>
+      <body>
+        <div>PRODUCTS DESCRIPTIONS // OFFERS</div>
+      </body>
+      <footer>
+        <div>CONTACT INFORMATION // REST OF NAVBAR // MINIMAL LOGO</div>
+      </footer>
     </>
   )
 }
