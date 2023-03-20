@@ -1,7 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+
 :root {
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+
+  --funko-font: 'Raleway', sans-serif;
 
   --tile-start-rgb: 239, 245, 249;
   --tile-end-rgb: 228, 232, 233;
@@ -21,6 +25,8 @@
 }
 
 html,
-body {
+body,
+main {
+  min-height: 100vh;
   max-width: 100vw;
 }

@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Tangerine");
-
 .header {
     display: flex;
     width: 100%;
@@ -22,7 +20,7 @@
     display: flex;
     width: 406px;
     height: 60px;
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--funko-font);
     font-size: 20px;
     color: #FFFFFF;
     justify-content: space-between;

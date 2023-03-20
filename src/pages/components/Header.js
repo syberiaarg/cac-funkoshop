@@ -3,7 +3,7 @@ import funkoIso from "/public/funkologo.svg"
 import funkoLogo from "/public/funkotextlogo.svg"
 import cartIcon from "/public/cart-icon.svg"
 import strokeVector from "/public/strokeVector.svg"
-import styles from "./Header.module.css"
+import styles from "./styles/Header.module.css"
 import React, { useState } from "react"
 
 

@@ -1,0 +1,40 @@
+.footer {
+    display: flex;
+    width: 100%;
+    height: 343px;
+    background-color: #30343F;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer span {
+
+    font-family: var(--funko-font);
+    font-size: 20px;
+    margin-top: auto;
+    color: #FFF;
+    margin-bottom: 23px;
+}
+
+.nav {
+    font-family: var(--funko-font);
+    font-size: 20px;
+    color: #FFF;
+    width: 134px;
+    height: 122px;
+    margin-left: 110px;
+}
+
+.nav ul {
+    list-style-type: none;
+    align-content: space-around;
+}
+
+.nav ul li {
+    line-height: 30px;
+}
+
+.logo {
+
+    margin-right: 110px;
+}
