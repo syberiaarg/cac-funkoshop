@@ -1,0 +1,14 @@
+.button {
+
+    display: inline-flex;
+    height: 47px;
+    width: 211px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.button span {
+    font-family: var(--button-font);
+    font-size: 20px;
+}
