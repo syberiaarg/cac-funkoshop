@@ -21,8 +21,9 @@ export default function Home() {
       <div>
         <Header />
         <div className={styles.bannerBox}>
+          <RadiusButton str={'SHOP'} bgColor={'#FFF'} textColor={'#000000'} />
           <Image className={styles.banner} src={Banner} height={388} alt='Funkos banner' />
-          <RadiusButton str={'SHOP'} />
+
         </div>
         <main>
         </main>

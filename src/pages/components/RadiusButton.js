@@ -1,14 +1,15 @@
 import styles from './styles/RadiusButton.module.css'
 
-const RadiusButton = ({ str }) => (
+const RadiusButton = ({ str, bgColor, textColor }) => (
 
     <div
-        style={{ 'background-color': '#000000', color: '#FFF' }}
+        style={{ 'background-color': `${bgColor}`, color: `${textColor}` }}
         className={styles.button}>
         <span>{str}</span>
     </div>
 
 
 )
+
 
 export default RadiusButton
