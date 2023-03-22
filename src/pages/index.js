@@ -21,9 +21,14 @@ export default function Home() {
       <div>
         <Header />
         <div className={styles.bannerBox}>
-          <RadiusButton str={'SHOP'} bgColor={'#FFF'} textColor={'#000000'} />
           <Image className={styles.banner} src={Banner} height={388} alt='Funkos banner' />
-
+          <div className={styles.bannerCaption}>
+            <h1>New Incomes</h1>
+            <span>Meet the next Funko Pop in your collection</span>
+          </div>
+          <div className={styles.buttonHolder}>
+            <RadiusButton str={'SHOP'} bgColor={'#FFF'} textColor={'#000000'} />
+          </div>
         </div>
         <main>
         </main>

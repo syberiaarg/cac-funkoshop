@@ -21,7 +21,7 @@
     width: 406px;
     height: 60px;
     font-family: var(--funko-font);
-    font-size: 20px;
+    font-size: 1.25em;
     color: #FFFFFF;
     justify-content: space-between;
     align-items: center;

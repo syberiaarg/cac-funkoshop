@@ -1,9 +1,37 @@
 .bannerBox {
-    width: 100%;
-    display: inline-block;
     position: relative;
 }
 
+
 .banner {
     width: 100%;
+}
+
+.bannerCaption {
+
+    position: absolute;
+    bottom: 50%;
+    left: 8%;
+}
+
+.bannerCaption h1 {
+
+    color: #fff;
+    font-family: var(--funko-font);
+    font-size: 2.5em;
+}
+
+.bannerCaption span {
+
+    color: #fff;
+    font-family: var(--funko-font);
+    font-size: 1.125em;
+}
+
+
+.buttonHolder {
+    position: absolute;
+    bottom: 30%;
+    left: 8%;
+
 }

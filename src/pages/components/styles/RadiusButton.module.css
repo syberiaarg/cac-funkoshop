@@ -1,21 +1,20 @@
-.button {
+ .button {
 
-    display: inline-flex;
-    height: 47px;
-    width: max-content;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50px;
-    position: absolute;
-    bottom: 28%;
-    left: 8%;
-}
+     display: inline-flex;
+     height: 47px;
+     width: max-content;
+     align-items: center;
+     justify-content: center;
+     border-radius: 50px;
+     padding-left: 100px;
+     padding-right: 100px;
+     padding-top: 3px;
+     padding-bottom: 3px;
 
-.button span {
-    font-family: var(--button-font);
-    font-size: 20px;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 11px;
-    padding-bottom: 11px;
-}
+ }
+
+ .button span {
+     font-family: var(--button-font);
+     font-size: 1.25em;
+     font-weight: bold;
+ }
